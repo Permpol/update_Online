@@ -4,7 +4,7 @@
 #include <WiFiClientSecure.h>
 #include "cert.h"
 
-const char * ssid = "eleceasy.com_2.4Ghz";
+const char * ssid = "eleceasy.com_2.4G";
 const char * password = "20072536";
 
 
