@@ -9,10 +9,10 @@ const char * password = "20072536";
 
 
 String FirmwareVer = {
-  "2.2"
+  "2.3"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/Permpol/update_Online/main/bin_version.txt?token=GHSAT0AAAAAACJSQ6CCWMI6G4WZDNMTT2GSZKGVGPA"
-#define URL_fw_Bin "https://raw.githubusercontent.com/programmer131/ESP8266_ESP32_SelfUpdate/master/esp32_ota/fw.bin"
+#define URL_fw_Bin "https://github.com/Permpol/update_Online/raw/dfdb6ffcebb21851a7631fdc12904e91302021c5/fw.bin?token=GHSAT0AAAAAACJSQ6CCWMI6G4WZDNMTT2GSZKGVGPA"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
@@ -91,6 +91,11 @@ void loop() {
     button_boot.pressed = false;
   }
   repeatedCall();
+  
+  digitalWrite(5,HIGH);
+  delay(500);
+  digitalWrite(5,LOW);
+  delay(500);
 }
 
 void connect_wifi() {
