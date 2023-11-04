@@ -9,10 +9,10 @@ const char * password = "20072536";
 
 
 String FirmwareVer = {
-  "2.4"
+  "2.5"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/Permpol/update_Online/main/bin_version.txt?token=GHSAT0AAAAAACJSQ6CCWMI6G4WZDNMTT2GSZKGVGPA"
-#define URL_fw_Bin "https://github.com/Permpol/update_Online/raw/dfdb6ffcebb21851a7631fdc12904e91302021c5/fw.bin"
+#define URL_fw_Bin "https://github.com/Permpol/update_Online/raw/main/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
@@ -23,7 +23,7 @@ int FirmwareVersionCheck();
 
 unsigned long previousMillis = 0; // will store last time LED was updated
 unsigned long previousMillis_2 = 0;
-const long interval = 60000;
+const long interval = 10000;
 const long mini_interval = 1000;
 void repeatedCall() {
   static int num=0;
