@@ -9,10 +9,10 @@ const char * password = "20072536";
 
 
 String FirmwareVer = {
-  "2.3"
+  "2.4"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/Permpol/update_Online/main/bin_version.txt?token=GHSAT0AAAAAACJSQ6CCWMI6G4WZDNMTT2GSZKGVGPA"
-#define URL_fw_Bin "https://github.com/Permpol/update_Online/raw/dfdb6ffcebb21851a7631fdc12904e91302021c5/fw.bin?token=GHSAT0AAAAAACJSQ6CCWMI6G4WZDNMTT2GSZKGVGPA"
+#define URL_fw_Bin "https://github.com/Permpol/update_Online/raw/dfdb6ffcebb21851a7631fdc12904e91302021c5/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
