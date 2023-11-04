@@ -4,8 +4,8 @@
 #include <WiFiClientSecure.h>
 #include "cert.h"
 
-const char * ssid = "home_wifi";
-const char * password = "helloworld";
+const char * ssid = "eleceasy.com_2.4Ghz";
+const char * password = "20072536";
 
 
 String FirmwareVer = {
