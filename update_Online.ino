@@ -11,7 +11,7 @@ const char * password = "20072536";
 String FirmwareVer = {
   "2.2"
 };
-#define URL_fw_Version "https://raw.githubusercontent.com/programmer131/ESP8266_ESP32_SelfUpdate/master/esp32_ota/bin_version.txt"
+#define URL_fw_Version "https://raw.githubusercontent.com/Permpol/update_Online/main/bin_version.txt?token=GHSAT0AAAAAACJSQ6CCWMI6G4WZDNMTT2GSZKGVGPA"
 #define URL_fw_Bin "https://raw.githubusercontent.com/programmer131/ESP8266_ESP32_SelfUpdate/master/esp32_ota/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
